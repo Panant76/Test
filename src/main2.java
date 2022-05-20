@@ -1,7 +1,6 @@
 public class main2 {
     public static void main(String[] args) {
         String str = "Операция 'Ы'! Чтоб никто не догадался.";
-        String[] strArr = str.split(" ");
         char[] strArrChr = str.toCharArray();
 
         System.out.println(isShift(strArrChr));
@@ -16,6 +15,7 @@ public class main2 {
         }
         return new String(strArrChr);
     }
+
     static String noShift(char[] strArrChr) {
         for (int i = 0; i < strArrChr.length; i++) {
             if (strArrChr[i] < 192) {
