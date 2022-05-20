@@ -5,7 +5,6 @@ public class main3 {
         int[]arr={2,45,67,2,34,35,34,56,78,9,7,6,6,43};
         System.out.println(duplicates(arr));
     }
-
     public static int duplicates(int[] array) {
         //Make the magic happen
         if (array.length == 0 || array.length == 1) {
